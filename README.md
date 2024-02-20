@@ -4,6 +4,7 @@
 # Диаграмма последовательности процесса авторизации:
 ![image](https://github.com/Shamhazai/Tours_BD/assets/106805767/188e7631-1247-4d0b-b9da-4751b5120a91)
 # SQL скрипт с данными для моделей:
+```
 GO
 INSERT [dbo].[Country] ([Country_Code], [Country_Name]) VALUES (N'AD', N'Andorra')
 INSERT [dbo].[Country] ([Country_Code], [Country_Name]) VALUES (N'AE', N'United Arab Emirates')
@@ -418,5 +419,5 @@ GO
 INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALUES (1, N'Алиев Али Алиевич', N'13632647', 2, N'AAA')
 INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALUES (2, N'Иванов Иван Иванович', N'abcbacba', 3, N'BBB')
 INSERT [dbo].[Users] ([U_id], [U_name], [U_password], [U_OU_id], [U_login]) VALUES (3, N'Харченко Пётров Игорь', N'1c3ac2b2', 4, N'CCC')
-SET IDENTITY_INSERT [dbo].[Users] OFF
 GO
+```
